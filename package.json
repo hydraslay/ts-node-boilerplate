@@ -1,0 +1,19 @@
+{
+  "name": "ts-node-boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "(rm -r dist || true) && tsc",
+    "start": "ts-node src/index.ts"
+  },
+  "devDependencies": {
+    "ts-node": "3.3.0",
+    "@types/node": "^8.0.29",
+    "typescript": "3.3.3333"
+  },
+  "keywords": ["ts-node", "typescript"],
+  "author": "xukai@ai2-jp.com",
+  "license": "MIT"
+}
